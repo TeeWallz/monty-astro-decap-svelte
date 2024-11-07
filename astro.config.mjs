@@ -6,6 +6,7 @@ export default defineConfig({
   integrations: [
     DecapCMS({
       disableIdentityWidgetInjection: true,
+      
       config: {
         // Use Netlify’s “Git Gateway” authentication and target our default branch
         backend: {
